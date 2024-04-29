@@ -12,3 +12,36 @@ body {
    height: 1500px;
    font-family: "Rubik", sans-serif;
 }
+
+/* Base styles */
+.nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+  }
+  
+  .main-content {
+   padding: 2rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+   .nav {
+      flex-direction: column;
+   }
+  
+   .main-content {
+      padding: 1rem;
+   }
+  }
+  
+  @media (max-width: 600px) {
+   .nav {
+      padding: 0.5rem;
+   }
+  
+   .main-content {
+      padding: 1rem;
+   }
+  }
+  
