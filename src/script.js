@@ -1,6 +1,6 @@
 
     document.addEventListener('DOMContentLoaded', function() {
-        const hamburgerButton = document.querySelector('.md\\:hidden button');
+        const hamburgerButton = document.querySelector('.v > button');
         const navLinks = document.getElementById('navLinks');
         const signInOptions = document.getElementById('signInOptions');
 

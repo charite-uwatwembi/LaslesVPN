@@ -1061,11 +1061,6 @@ body {
   color: rgb(244 63 94 / var(--tw-text-opacity));
 }
 
-.hover\:text-blue-500:hover{
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
